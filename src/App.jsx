@@ -24,7 +24,7 @@ function App() {
 
   // Initialize socket connection
   useEffect(() => {
-    const newSocket = io('http://localhost:5000');
+    const newSocket = io('import.meta.env.VITE_SOCKET_URL');
     setSocket(newSocket);
 
     // Clean up on unmount
