@@ -39,6 +39,9 @@ Initially the project used REST API via websocket and threading and later implem
 3. Read Research Paper on implementing Dynamic Programming on Almgren-Chriss Model instead of our Non-linear Model. (Some Quantity issue was Observed in DP)
 4. Improve UI and Add more functionalities.
 
+###
+To run on your localhost kindly create a .env file for VITE_SOCKET_URL = (your_localhost_server)
+
 
 
 
